@@ -48,6 +48,25 @@ body {
     width: 320px;
 }
 
+@media screen and (max-width: 1680px) {
+    .cards-section__card {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cards-section__card {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cards-section__card {
+        padding-bottom: 50px;
+    }
+}
+
+
 .cards-section__card-img--active {
     background-image: url('./img/card-active.png');
     background-repeat: no-repeat;
