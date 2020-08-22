@@ -32,12 +32,19 @@ body {
 .cards-section {
     height: 510px;
     
-    align-items: center;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-
+    flex-wrap: wrap; 
     
+}
+
+.wrapper {
+    top: calc(50% - 315px);
+    height: 630px;
+    position: absolute;
+    left:0;
+    right:0;
+     margin: 0 auto;
 }
 
 .cards-section__card-img {
