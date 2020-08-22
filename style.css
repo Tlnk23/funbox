@@ -1,0 +1,276 @@
+@font-face{
+	font-family: "Exo2.0-Thin";
+	src:url(fonts/Exo2.0-Thin.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+    background-image: url('./img/bg.png');
+    background-repeat: repeat;
+    background-size: cover;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    font-family: "Trebuchet MS";
+}
+
+.main-section__title {
+    font-family:"Exo2.0-Thin";
+    margin: 36px;
+    font-weight: normal;
+    line-height: 1.2;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px #000000;
+}
+
+.cards-section {
+    height: 510px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+}
+
+.cards-section__card-img {
+    background-image: url('./img/card-default.png');
+    background-repeat: no-repeat;
+
+    height: 480px;
+    width: 320px;
+}
+
+.cards-section__card-img--active {
+    background-image: url('./img/card-active.png');
+    background-repeat: no-repeat;
+
+    height: 480px;
+    width: 320px;
+}
+
+.cards-section__card-img--disabled {
+    background-image: url('./img/card-disabled.png');
+    background-repeat: no-repeat;
+
+    height: 480px;
+    width: 320px;
+}
+
+.cards-section__card-slogan {
+    padding: 21px 0 0 48px;
+    margin: 0;
+
+    font-family: "Trebuchet MS";
+    font-size: 16px; 
+    font-weight: normal;
+    color: #666666; 
+}
+
+.cards-section__card-slogan--hover {
+    padding: 21px 0 0 48px;
+    margin: 0;
+
+    font-family: "Trebuchet MS";
+    font-size: 16px; 
+    font-weight: normal;
+    color: #e62e7a; 
+}
+
+.cards-section__card-name {
+    margin: 0;
+    padding: 4px 0 0 45px;
+    font-family: "Trebuchet MS";
+    font-size: 48px;
+
+}
+
+.cards-section__card-name--taste {
+    margin: 0;
+    padding: 0;
+    padding-left: 4px;
+    font-family: "Trebuchet MS";
+    font-size: 24px;
+}
+
+.cards-section__card-text {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-left: 47px;
+
+    line-height: 0px;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+
+    color: #666666;
+}
+
+.cards-section__card-text--number{
+    display: inline-block;
+    font-weight: bold;
+
+    margin-top: 4px;
+    padding: 0;
+}
+
+.cards-section__card-mice {
+    display: inline-block;
+    font-weight: bold;
+
+    margin-top: 1px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cards-section__card-text--client {
+    margin: 0;
+    padding: 0;
+    padding-top: 16px;
+    padding-left: 47px;
+
+    line-height: 0px;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+
+    color: #666666;
+}
+
+
+.cards-section__circle {
+    margin: 220px 16px 0 224px;
+    width: 81px;
+    height: 81px;
+    margin-bottom: 0;
+
+    font-family: "Trebuchet MS";
+    font-size: 42px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+
+    background: #1698d9;
+    border-radius: 50%;
+}
+
+.cards-section__circle--hover {
+    margin: 220px 16px 0 224px;
+    width: 81px;
+    height: 81px;
+    margin-bottom: 0;
+
+    font-family: "Trebuchet MS";
+    font-size: 42px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+
+    background: #2ea8e6;
+    border-radius: 50%;
+}
+
+.cards-section__circle--active {
+    margin: 220px 16px 0 224px;
+    width: 81px;
+    height: 81px;
+    margin-bottom: 0;
+
+    font-family: "Trebuchet MS";
+    font-size: 42px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+
+    background: #d91667;
+    border-radius: 50%;
+}
+
+.cards-section__circle--active-hover {
+    margin: 220px 16px 0 224px;
+    width: 81px;
+    height: 81px;
+    margin-bottom: 0;
+
+    font-family: "Trebuchet MS";
+    font-size: 42px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+
+    background: #e62e7a;
+    border-radius: 50%;
+}
+
+.cards-section__circle--disabled {
+    margin: 201px 16px 0 224px;
+    width: 81px;
+    height: 81px;
+    margin-bottom: 0;
+
+    font-family: "Trebuchet MS";
+    font-size: 42px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+
+    background: #b3b3b3;
+    border-radius: 50%;
+}
+
+.cards-section__weight {
+    padding-top: 7px;
+    
+    margin: 0;
+}
+
+.cards-section__weight--kg {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 8pt;
+}
+
+.cards-section__card-discription {
+    font-size: 13px;
+    font-family: "Trebuchet MS";
+    color: #ffffff;
+    text-align: center;
+    margin: 13px auto 0 auto;
+    position: relative;
+}
+
+.cards-section__card-discription--disabled {
+    font-size: 13px;
+    font-family: "Trebuchet MS";
+    color: #ffff66;
+    text-align: center;
+    margin: 13px auto 0 auto;
+    position: relative;
+}
+
+.cards-section__card-discription-buy {
+    color: #1698d9;
+    display: inline-block;
+
+    border-bottom: dashed;
+    border-width: 1px;
+}
+
+
+
