@@ -21,6 +21,7 @@ body {
 .main-section__title {
     font-family:"Exo2.0-Thin";
     margin: 36px;
+    margin-top: 0;
     font-weight: normal;
     line-height: 1.2;
     font-size: 36px;
@@ -61,13 +62,19 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 959px) {
+    .wrapper {
+        position: relative;
+    }
     .cards-section__card {
         padding-bottom: 50px;
     }
 }
 
 @media screen and (max-width: 320px) {
+    .wrapper {
+        position: relative;
+    }
     .cards-section__card {
         padding-bottom: 50px;
     }
